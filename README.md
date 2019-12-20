@@ -1,0 +1,12 @@
+# CP5046-iGroceries-Project
+
+In this modern era, there is a high demand for software tools and technologies. Nowadays, all businesses are running online and people around the world prefer to buy things online. Grocery is one of the key categories of spending globally and a major share of the consumer’s wallet. Groceries are the basic need of any human being. Selling Grocery online is a definite idea for any business. An online grocery store permits a customer to submit online orders for items and services from a store that serves both walk-in customers and online customers. The online grocery store system presents an online display of all the items they want to sell. This web-based application helps customers to choose their daily needs and add products to their shopping cart. Customers provide their complete details of address and contact and they get their selected products to their doorstep. This online grocery store displays many international items with its features.
+“iGroceries” allows the user to buy all international groceries online, and that is from one place only. It is a virtual store on the internet where customers can browse the catalogue and select products of interest. Those selected items may be collected in a shopping cart. User can order any non-traditional groceries which are imported from diverse countries of the world. At the checkout time, the items in the shopping cart will be presented as an order. Our online store- iGroceries will import groceries from almost every nation (such as India, Europe, China). In our nation Australia, some people migrate here from different lands. They require many groceries from their motherland, and it is tough to find native groceries in foreign countries. They need a diverse variety of groceries to make their food. Therefore, here is the solution to their problem- “iGroceries”. 
+
+Our mission
+The iGroceries’ main aim is to import and sell a variety of international groceries to a diverse population of the country who migrated from different parts of the world and lived here in Australia.
+
+
+Target audience
+Generally, the main target for our website are international customers who moved from different countries and lived in Australia. They can buy their native groceries from iGroceries. 
+Secondary customer of our website is the local grocery store’s owner. They are the mediator between customer and businessman.
