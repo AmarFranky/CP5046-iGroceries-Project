@@ -19,5 +19,10 @@ class AdminModel extends CI_Model {
 		return true;
 
 	}
+	public function getCat()
+	{
+		$res=$this->db->get('item_categories');
+		return $res->result();
+	}
 
 }

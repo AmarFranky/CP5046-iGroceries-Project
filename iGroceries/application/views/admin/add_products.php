@@ -21,11 +21,10 @@
                 <label class="control-label">Item Category</label>
                 <div class="controls">
                   <select required name="item_category">
-                    <option> Beverages </option>
-                    <option> Bread & Bakery </option>
-                    <option> Breakfast & Cereal</option>
-                    <option> Oils </option>
-                    <option> Snacks  </option>
+                  <?php foreach($cat as $row ){ ?>
+                    <option value="<?php echo $row->category_name; ?>"> <?php echo $row->category_name; ?> </option>
+            
+                  <?php } ?>
                   </select>
                 </div>
               </div>

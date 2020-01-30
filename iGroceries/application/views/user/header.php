@@ -33,10 +33,54 @@
 <!-- start-smoth-scrolling -->
 </head>
 	
-<body style="margin-top:-59px;background:#f6fef6">
-<!-- header -->
+<body style="background:#f6fef6">
+
+<div class="agileits_header" style="background:#062a06;">
+		<div class="ig_offers">
+			<a href="products.html"><b>International Groceries</b></a>
+		</div>
+		<div class="ig_search">
+			<form action="#" method="post">
+				<input type="text" name="Product" value="Search a product...(coming soon)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+				<input type="submit" value=" ">
+			</form>
+		</div>
+		<div class="product_list_header">  
+			<form action="#" method="post" class="last">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="display" value="1" />
+                    <button style="background:#81b107;width: 50px;
+
+height: 40px;"  type="submit" name="submit" /><i class="fa fa-shopping-cart"></i></button>
+                </fieldset>
+            </form>
+		</div>
+		<div class="ig_header_right">
+			<ul>
+				<li class="dropdown profile_details_drop" >
+					<a href="#" class="dropdown-toggle" style="color:#81b107;" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
+					<div class="mega-dropdown-menu">
+						<div class="igs_vegetables">
+							<ul class="dropdown-menu drp-mnu">
+								<li><a href="#">Login</a></li> 
+								<li><a href="#">Sign Up</a></li>
+							</ul>
+						</div>                  
+					</div>	
+				</li>
+			</ul>
+		</div>
+		<div class="ig_header_right1">
+			<h2><a href="#" >Locate Us</a></h2>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--<div class="iggi" >
+	</div>-->
 	
-<!-- script-for sticky-nav -->
+	<!-- header -->
+	<!-- script-for sticky-nav -->
 	<script>
 	$(document).ready(function() {
 		 var navoffeset=$(".agileits_header").offset().top;
@@ -48,32 +92,44 @@
 				$(".agileits_header").removeClass("fixed");
 			}
 		 });
-		 
 	});
 	</script>
-<!-- //script-for sticky-nav -->
+	<!-- //script-for sticky-nav -->
 	<div class="logo_products" style="margin-bottom:0px;">
 		<div class="container">
-			<div class="w3ls_logo_products_left">
+			<div class="igs_logo_products_left">
 				<h1><a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assetsUser/images/iglogo1.png" style="width:100px;height:100px;"></a></h1>
 			</div>
-			<div class="w3ls_logo_products_left1">
-				<ul class="special_items">
-					<li><a href="#">Products</a><i></i></li>
-					<li><a href="#">About Us</a><i></i></li>
-					<li><a href="#">Contact Us</a><i></i></li>
-					<li><a href="#">Sign Up</a></li>
-                   
-				</ul>
-			</div>
-			<div class="w3ls_logo_products_left1">
-				<ul class="phone_email">
+			<div class="igs_logo_products_left1">
+				<ul class="special_items" style="margin:-7px;">
+					<li><a href="#" style="padding-right: .6em;margin: 1em 0;">About Us</a></li>
+					<li class="dropdown profile_details_drop" style="padding-right: .6em;margin: 1em 0;" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</span></a>
+					<div class="mega-dropdown-menu">
+						<div class="igs_vegetables">
+							<ul class="dropdown-menu drp-mnu">
+							<li><a href="#">Beverages </a></li>
+						<li><a href="#">Bread/Bakery</a></li>
+						<li><a href="#">Frozen Foods</a></li>
+						<li><a href="#">Cleaners  </a></li>
+						<li><a href="#">Pet Food</a></li>
+                        <li><a href="#">Canned/Jarred Goods</a></li>
+                        <li><a href="#">Dry/Baking Goods</a></li>
+                        <li><a href="#">Dairy </a></li>
+                        <li><a href="#">Personal Care</a></li>
+                        <li><a href="$">Others</a></li>
+							</ul>
+						</div>                  
+					</div>	
+				</li>
+					<li><a href="#" style="padding-right: .6em;margin: 1em 0;">Contact Us</a><i></i></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i>1232 234 567</li>
 					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="<?php echo base_url();?>assetsUser/mailto:store@grocery.com">shop@iGroceries.com</a></li>
-                  <a href="#">  <i class="fa fa-shopping-cart"></i></a>
-                </ul>
-			</div>
-         <!--   <div class="product_list_header ">  
+			       
+				</ul>
+			</div>	
+			
+         <!--<div class="product_list_header ">  
 			<form action="#" method="post" class="last">
                 <fieldset>
                     <input type="hidden" name="cmd" value="_cart" />
@@ -88,33 +144,35 @@
 <!-- //header -->
 <!-- banner -->
 <div class="banner">
-		<div class="w3l_banner_nav_left">
-			<nav class="navbar nav_bottom">
-			 <!-- Brand and toggle get grouped for better mobile display -->
-			  <div class="navbar-header nav_2">
-				  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-			   </div> 
-			   <!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-					<ul class="nav navbar-nav nav_1">
-                    <li><a href="#" style="background:#95d100;">Product Categories</a></li>
-						<li><a href="#">Beverages </a></li>
-						<li><a href="#">Bread/Bakery</a></li>
-						<li><a href="#">Frozen Foods</a></li>
-						<li><a href="#">Cleaners  </a></li>
-						<li><a href="#">Pet Food</a></li>
-                        <li><a href="#">Canned/Jarred Goods</a></li>
-						<li><a href="#">Frozen Foods</a></li>
-                        <li><a href="#">Dry/Baking Goods</a></li>
-                        <li><a href="#">Dairy </a></li>
-                        <li><a href="#">Personal Care</a></li>
-                        <li><a href="$">Others</a></li>
-					</ul>
-				 </div><!-- /.navbar-collapse -->
+<!--<div class="ig_banner_nav_left">
+		<nav class="navbar nav_bottom">
+		<nav class="navbar1 nav_buttom1">
+			Brand and toggle get grouped for better mobile display 
+			<div class="navbar-header nav_2">
+				<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			</div> 
+			Collect the nav links, forms, and other content for toggling -->
+			<!--<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+				<ul class="nav navbar-nav nav_1">
+				<li><a href="#" style="background:#95d100;">Product Categories</a></li>
+					<li><a href="#">Beverages </a></li>
+					<li><a href="#">Bread/Bakery</a></li>
+					<li><a href="#">Frozen Foods</a></li>
+					<li><a href="#">Cleaners  </a></li>
+					<li><a href="#">Pet Food</a></li>
+					<li><a href="#">Canned/Jarred Goods</a></li>
+					<li><a href="#">Frozen Foods</a></li>
+					<li><a href="#">Dry/Baking Goods</a></li>
+					<li><a href="#">Dairy </a></li>
+					<li><a href="#">Personal Care</a></li>
+					<li><a href="$">Others</a></li>
+				</ul>-->
+				</div><!-- /.navbar-collapse -->
 			</nav>
 		</div>
+		

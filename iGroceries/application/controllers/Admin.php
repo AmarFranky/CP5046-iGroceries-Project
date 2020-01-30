@@ -61,8 +61,9 @@ class Admin extends CI_Controller {
 	}
 	public function loadAddProducts()
 	{
+		$data['cat']=$this->AdminModel->getCat();
 		$this->load->view('admin/header');
-		$this->load->view('admin/add_products');
+		$this->load->view('admin/add_products',$data);
 		//$this->load->view('admin/footer');
 	}
 	public function insertProducts()
@@ -97,6 +98,7 @@ class Admin extends CI_Controller {
 			echo "Error";
 		}
 	}
+
 	public function logout()
 	{
 		session_destroy();
