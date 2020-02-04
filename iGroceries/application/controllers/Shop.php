@@ -33,14 +33,14 @@ class Shop extends CI_Controller {
 	public function products()
 	{
 	//	$this->load->view('header');
-		$this->load->view('products');
+		$this->load->view('user/products');
 	//	$this->load->view('footer');
 	}
 	public function about()
 	{
-	//	$this->load->view('header');
-		$this->load->view('about');
-	//	$this->load->view('footer'); 
+		$this->load->view('user/header');
+		$this->load->view('user/about');
+		$this->load->view('user/footer'); 
 	}
 
 } 

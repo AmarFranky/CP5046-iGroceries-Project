@@ -1,27 +1,39 @@
+<!-- map -->
+<!--<div class="map" id="map">
+	<iframe src="https://maps.google.com/maps?q=Unit%202%2C%2057%20Latham%20Street%2CChermside%20QLD-%204032%20&t=&z=13&ie=UTF8&iwloc=&output=embed" style="border:0"></iframe>
+</div>-->
+<!-- //map -->
 <!-- footer -->
+
 <div class="footer" style="background:#062a06;">
+
 		<div class="container">
-			<div class="col-md-3 w3_footer_grid">
-				<h3>Pages</h3>
-				<ul class="w3_footer_grid_list">
-					<li><a href="#">Events</a></li>
+		<div style="margin-left:435px;color:#fa1818;margin-bottom:35px;">
+		<a href="#top" style="color:white;"><h3 style="color:#fa1818;"><u>Back To Top<u><i style="margin-left: 10px;" class="fa fa-arrow-up"></i></h3></a>
+		</div>
+		
+
+			<div class="col-md-3 ig_footer_grid">
+				<h3 style="margin-left:30px">Pages</h3>
+				<ul class="ig_footer_grid_list">
+					<li><a href="<?php echo base_url();?>">Home</a></li>
 					<li><a href="#">About Us</a></li>
-					<li><a href="#">Best Deals</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Short Codes</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Contact Us</a></li>
+				
 				</ul>
 			</div>
-			<div class="col-md-3 w3_footer_grid">
+			<div class="col-md-3 ig_footer_grid">
 				<h3>Account</h3>
-				<ul class="w3_footer_grid_list">
+				<ul class="ig_footer_grid_list">
 					<li><a href="#">Register</a></li>
 					<li><a href="#">Login</a></li>
 					<li><a href="#">Wishlist</a></li>
 				</ul>
 			</div>
-			<div class="col-md-3 w3_footer_grid">
+			<div class="col-md-3 ig_footer_grid">
 				<h3>Categories</h3>
-				<ul class="w3_footer_grid_list">
+				<ul class="ig_footer_grid_list">
 					<li><a href="#">Pet Food</a></li>
 					<li><a href="#">Frozen Snacks</a></li>
 					<li><a href="#">Kitchen</a></li>
@@ -29,23 +41,40 @@
 					<li><a href="#">Households</a></li>
 				</ul>
 			</div>
-	
-			<div class="col-md-3 w3_footer_grid">
+			<div class="col-md-3 ig_footer_grid">
 				<h3>Contact</h3>
-				<ul class="w3_footer_grid_list1">
+				<ul class="ig_footer_grid_list1">
 				<li>Address: Unit 2, 57 Latham Street,Chermside QLD- 4032 </li>
 				<li>Contact Number: +1232 234 567 </li>
-					</ul>
+				</ul>
 			</div>
 			<div class="clearfix"> </div>
-			
-			<div class="wthree_footer_copy">
+		
+			<div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer" style="margin-left: 395px;">
+					<div class="ig_footer_grid_bottom">
+					
+						<ul class="agileits_social_icons">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+	
+				<div class="wthree_footer_copy" style="margin-left: -80px;">
 				<p>© 2020 iGroceries All rights reserved</p>
 			</div>
 		</div>
 	</div>
 <!-- //footer -->
-
+<script>
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+</script>
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo base_url();?>assetsUser/js/bootstrap.min.js"></script>
 <script>
@@ -62,23 +91,6 @@ $(document).ready(function(){
     );
 });
 </script>
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-<!-- //here ends scrolling icon -->
 <script src="<?php echo base_url();?>assetsUser/js/minicart.js"></script>
 <script>
 		paypal.minicart.render();
@@ -95,7 +107,7 @@ $(document).ready(function(){
 			}
 
 			if (total < 3) {
-				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				alert('');
 				evt.preventDefault();
 			}
 		});

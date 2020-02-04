@@ -17,12 +17,12 @@ class AdminModel extends CI_Model {
 	{
 		$result=$this->db->insert('items',$data);
 		return true;
-
 	}
 	public function getCat()
 	{
 		$res=$this->db->get('item_categories');
 		return $res->result();
 	}
+
 
 }

@@ -14,7 +14,7 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 
 </script>
 <!-- END PHP Live! HTML Code [V3] -->
-
+<!--<section>-->
 <section class="slider">
 	<div class="flexslider">
 		<ul class="slides">
@@ -108,7 +108,6 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 													<input type="hidden" name="cancel_return" value=" " />
 												</fieldset>
 											</form>
-									
 										</div>
 									</div>
 								</figure>
@@ -140,6 +139,7 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
 												</fieldset>
+												<input type="hidden" name="cancel_return" value="">
 											</form>
 										</div>
 									</div>
@@ -174,7 +174,6 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
-												
 												</fieldset>
 											</form>
 										</div>
@@ -210,7 +209,6 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
-													
 												</fieldset>
 											</form>
 										</div>
@@ -236,17 +234,19 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 				
 			</section>
 <!-- //top-brands -->
-	<!-- flexSlider -->
-	<link rel="stylesheet" href="<?php echo base_url();?>assetsUser/css/flexslider.css" type="text/css" media="screen" property="" />
-				<script defer src="<?php echo base_url();?>assetsUser/js/jquery.flexslider.js"></script>
-				<script type="text/javascript">
-				$(window).load(function(){
-				  $('.flexslider').flexslider({
-					animation: "slide",
-					start: function(slider){
-					  $('body').removeClass('loading');
-					}
-				  });
-				});
-			  </script>
-			<!-- //flexSlider -->
+<!-- flexSlider -->
+<link rel="stylesheet" href="<?php echo base_url();?>assetsUser/css/flexslider.css" type="text/css" media="screen" property="" />
+	<script defer src="<?php echo base_url();?>assetsUser/js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+	$(window).load(function(){
+		$('.flexslider').flexslider({
+		animation: "slide",
+		slideshowSpeed: 7000,
+        animationSpeed: 600,
+		start: function(slider){
+			$('body').removeClass('loading');
+		}
+		});
+	});
+	</script>
+<!-- //flexSlider -->

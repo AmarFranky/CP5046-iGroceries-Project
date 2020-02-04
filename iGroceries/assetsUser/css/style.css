@@ -5,7 +5,7 @@ html, body{
 	background:#ffffff;
 }
 ul li,ol li{
-	font-size:14px;
+	font-size:16 px;
 }
 p{
 	margin:0;
@@ -66,7 +66,7 @@ i.badge.badge-notify.my-cart-badge {
     color: #fff;
 	top: 1em;
 }
-input[type="submit"],#PPMiniCart .minicart-submit,.igs_vegetables ul li a,input[type="reset"],.agileinfo_mail_grid_left ul li a,.events_bottom_left2 ul li a,.igs_service_grids1_right a,ul.agileits_social_icons li a,.ig_banner_nav_right_banner_pet a,.igs_ig_banner_nav_right_grid_head_grid ul li a,.products-breadcrumb ul li a,.w3_footer_grid ul li a,.ig_fresh_vegetables_grid ul li a,.wthree_footer_copy p a,.agile_top_brand_left_grid1 .button,.igs_logo_products_left1 ul.special_items li a,.igs_logo_products_left1 ul.phone_email li a{
+input[type="submit"],#PPMiniCart .minicart-submit,.igs_vegetables ul li a,input[type="reset"],.agileinfo_mail_grid_left ul li a,.events_bottom_left2 ul li a,.igs_service_grids1_right a,ul.agileits_social_icons li a,.ig_banner_nav_right_banner_pet a,.igs_ig_banner_nav_right_grid_head_grid ul li a,.products-breadcrumb ul li a,.ig_footer_grid ul li a,.ig_fresh_vegetables_grid ul li a,.wthree_footer_copy p a,.agile_top_brand_left_grid1 .button,.igs_logo_products_left1 ul.special_items li a,.igs_logo_products_left1 ul.phone_email li a{
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
 	-moz-transition: .5s ease-in;
@@ -203,7 +203,7 @@ ul.dropdown-menu.drp-mnu li a i {
 	text-decoration:none;
 }
 .igs_logo_products_left1 ul.special_items li a:hover,.igs_logo_products_left1 ul.phone_email li a:hover{
-	color:#FA1818;
+	color:#81b107;
 }
 .igs_logo_products_left1 ul.special_items li i{
 	padding:0 2em;
@@ -491,14 +491,14 @@ ul.dropdown-menu.drp-mnu li a i {
     top: -1%;
     right: 10%;
 }
-.top-brands h3,.fresh-vegetables h3,.mail h3,.testimonials h3,.w3_login h3,.igs_ig_banner_nav_right_grid h3,h3.title,.faq h3,.services h3,.about h3,.team h3,.events h3{
+.top-brands h3,.fresh-vegetables h3,.mail h3,.testimonials h3,.ig_login h3,.igs_ig_banner_nav_right_grid h3,h3.title,.faq h3,.services h3,.about h3,.team h3,.events h3{
 	text-align:center;
 	color:#212121;
 	padding-bottom:.5em;
 	position:relative;
 	font-size: 2.5em;
 }
-.top-brands h3:after,.fresh-vegetables h3:after,.mail h3:after,.w3_login h3:after,.testimonials h3:after,.igs_ig_banner_nav_right_grid h3:after,h3.title:after,.faq h3:after,.services h3:after,.about h3:after,.team h3:after,.events h3:after{
+.top-brands h3:after,.fresh-vegetables h3:after,.mail h3:after,.ig_login h3:after,.testimonials h3:after,.igs_ig_banner_nav_right_grid h3:after,h3.title:after,.faq h3:after,.services h3:after,.about h3:after,.team h3:after,.events h3:after{
 	content: '';
     background: #FA1818;
     height: 2px;
@@ -1065,38 +1065,38 @@ button.submit.check_out{
 	padding:4em 0;
 	background:#212121;
 }
-.w3_footer_grid h3{
+.ig_footer_grid h3{
 	font-size:1.2em;
 	color:#fff;
 	text-transform:uppercase;
 	margin-bottom:2em;
 }
-.w3_footer_grid ul.w3_footer_grid_list li{
+.ig_footer_grid ul.ig_footer_grid_list li{
 	list-style-type: none;
     margin-bottom: 1.5em;
     padding-left: 2em;
     background: url(../images/img-sp.png) no-repeat -14px -193px;
 }
-.w3_footer_grid ul.w3_footer_grid_list li a{
+.ig_footer_grid ul.ig_footer_grid_list li a{
 	color:#999;
 	text-decoration:none;
 	text-transform:capitalize;
 }
-.w3_footer_grid ul.w3_footer_grid_list li a:hover{
+.ig_footer_grid ul.ig_footer_grid_list li a:hover{
 	color:#fff;
 }
 .agile_footer_grids{
 	padding:1em 0 0;
 }
-.w3_footer_grid_bottom h4,.w3_footer_grid_bottom h5{
+.ig_footer_grid_bottom h4,.ig_footer_grid_bottom h5{
 	text-transform:capitalize;
 	font-size:1em;
 	margin-bottom:1em;
 }
-.w3_footer_grid_bottom h4{
+.ig_footer_grid_bottom h4{
 	color:#84C639;
 }
-.w3_footer_grid_bottom h5{
+.ig_footer_grid_bottom h5{
 	color:#fff;
 }
 .agileits_social_icons li{
@@ -1138,28 +1138,28 @@ button.submit.check_out{
 	background:#ea4c89;
 	border-color:#ea4c89;
 }
-.w3_footer_grid ul.w3_footer_grid_list1 li i {
+.ig_footer_grid ul.ig_footer_grid_list1 li i {
     color: #84C639;
 }
-.w3_footer_grid ul.w3_footer_grid_list1 li span {
+.ig_footer_grid ul.ig_footer_grid_list1 li span {
     margin-left: 2em;
     display: block;
 }
-.w3_footer_grid ul.w3_footer_grid_list1 li a {
+.ig_footer_grid ul.ig_footer_grid_list1 li a {
     color: #fff;
     text-decoration: none;
 }
-.w3_footer_grid ul.w3_footer_grid_list1 li label{
+.ig_footer_grid ul.ig_footer_grid_list1 li label{
 	color:#FA1818;
 	padding-right:1em;
 }
-.w3_footer_grid ul.w3_footer_grid_list1 li{
+.ig_footer_grid ul.ig_footer_grid_list1 li{
 	list-style-type: none;
     margin-bottom: 1.5em;
     color: #999;
     line-height: 1.8em;
 }
-.w3_footer_grid ul.w3_footer_grid_list1 li a:hover{
+.ig_footer_grid ul.ig_footer_grid_list1 li a:hover{
 	color:#999;
 }
 .wthree_footer_copy{
@@ -1780,7 +1780,7 @@ h2.typoh2{
 		margin-bottom: 10px;
 	}
 	ul.pagination li a {
-		font-size: 14px;
+		font-size: 20px;
 		padding: 5px 11px;
 	}
 	.list-group {
@@ -1790,13 +1790,13 @@ h2.typoh2{
 		padding: 10px;
 	}
 	.nav > li > a {
-		font-size: 14px;
+		font-size: 20px;
 	}
 	table.table.table-striped,.table-bordered,.bs-docs-example {
 		display: none;
 	}
 }
-.typo,.privacy,.faq,.services,.events,.mail,.agileinfo_single,.w3_login{
+.typo,.privacy,.faq,.services,.events,.mail,.agileinfo_single,.ig_login{
     padding: 5em;
 }
 /*--//Typography --*/
@@ -2104,31 +2104,31 @@ p.animi{
 .agileits_social_icons_team li a:hover{
     color: #fff;
 }
-.w3_testimonials_grid p{
+.ig_testimonials_grid p{
 	font-size:14px;
 	color:#999;
 	line-height:2em;
 }
-.w3_testimonials_grids {
+.ig_testimonials_grids {
     margin: 3em 0 0;
 }
-.w3_testimonials_grid p i {
+.ig_testimonials_grid p i {
     display: block;
     font-size: 1.5em;
     padding: 0 2em 1em 0;
     color: #84C639;
 }
-.w3_testimonials_grid {
+.ig_testimonials_grid {
     padding: 0 4em;
 }
-.w3_testimonials_grid h4{
+.ig_testimonials_grid h4{
 	font-size:1em;
 	color:#212121;
 	text-align:right;
 	text-transform:uppercase;
 	margin: 2em 0 0;
 }
-.w3_testimonials_grid h4 span{
+.ig_testimonials_grid h4 span{
 	display: block;
     font-weight: 300;
     letter-spacing: 3px;
@@ -2729,7 +2729,7 @@ input.checkbox:checked:after {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     margin: 3em auto 0;
 }
-.w3_login_module{
+.ig_login_module{
 	min-height: 475px;
 }
 .form-module .toggle {
@@ -2963,7 +2963,7 @@ input.checkbox:checked:after {
 	.snipcart-details {
 		width: 88%;
 	}
-	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .w3_login {
+	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .ig_login {
 		padding: 5em 3em;
 	}
 	.events_bottom_left1_grid {
@@ -3037,16 +3037,16 @@ input.checkbox:checked:after {
 	.top_brand_left {
 		padding-left: 0;
 	}
-	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .w3_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
+	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .ig_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
 		font-size: 2.3em;
 	}
 	.banner_bottom, .top-brands, .fresh-vegetables, .ig_banner_nav_right_banner3_btm, .testimonials, .team, .newsletter-top-serv-btm, .igs_ig_banner_nav_right_grid_sub {
 		padding: 4em 0 !important;
 	}
-	.agile_footer_grids_w3_footer {
+	.agile_footer_grids_ig_footer {
 		width: 35%;
 	}
-	.w3_footer_grid {
+	.ig_footer_grid {
 		padding-left: 0;
 	}
 	.wthree_banner_bottom_left_grid_pos h4 {
@@ -3101,7 +3101,7 @@ input.checkbox:checked:after {
 	.ig_banner_nav_right_banner_pet {
 		padding: 3em 0 0 3em !important;
 	}
-	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .w3_login {
+	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .ig_login {
 		padding: 4em 3em;
 	}
 	.w3agile_event_grid_right h4 {
@@ -3166,7 +3166,7 @@ input.checkbox:checked:after {
 	.ig_banner_nav_right_banner3_btml h4 {
 		font-size: 1.3em;
 	}
-	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .w3_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
+	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .ig_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
 		font-size: 2em;
 	}
 	.igs_ig_banner_nav_right_grid1 h6 {
@@ -3286,15 +3286,15 @@ input.checkbox:checked:after {
 	.w3agile_newsletter_right input[type="email"] {
 		width: 72%;
 	}
-	.w3_footer_grid {
+	.ig_footer_grid {
 		padding-left: 1em;
 		float: left;
 		width: 50%;
 	}
-	.w3_footer_grid:nth-child(2) {
+	.ig_footer_grid:nth-child(2) {
 		margin-bottom: 7em;
 	}
-	.agile_footer_grids_w3_footer {
+	.agile_footer_grids_ig_footer {
 		margin: 0 !important;
 	}
 	.agile_footer_grids {
@@ -3395,7 +3395,7 @@ input.checkbox:checked:after {
 	.agileits_team_grid:nth-child(2) {
 		margin-bottom: 2em;
 	}
-	.w3_testimonials_grid {
+	.ig_testimonials_grid {
 		padding: 0 1em;
 		float: left;
 		width: 50%;
@@ -3578,7 +3578,7 @@ input.checkbox:checked:after {
 	.ig_banner_nav_right_banner7 {
 		background-position: -140px 0px;
 	}
-	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .w3_login {
+	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .ig_login {
 		padding: 3em 2em;
 	}
 	.ig_banner_nav_right_banner_pet a, .igs_service_grids1_right a {
@@ -4030,7 +4030,7 @@ input.checkbox:checked:after {
 	.wthree_banner_bottom_left {
 		width: 90%;
 	}
-	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .w3_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
+	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .ig_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
 		font-size: 1.8em;
 	}
 	.top_brand_left,.igs_ig_banner_left {
@@ -4066,21 +4066,21 @@ input.checkbox:checked:after {
 	.footer {
 		padding: 2em 0;
 	}
-	.w3_footer_grid {
+	.ig_footer_grid {
 		float: none;
 		width: 100%;
 	}
-	.w3_footer_grid h3 {
+	.ig_footer_grid h3 {
 		font-size: 1.1em;
 		margin-bottom: 1em;
 	}
-	.w3_footer_grid:nth-child(2) {
+	.ig_footer_grid:nth-child(2) {
 		margin: 3em 0;
 	}
-	.w3_footer_grid:nth-child(4) {
+	.ig_footer_grid:nth-child(4) {
 		margin: 3em 0 0;
 	}
-	.agile_footer_grids_w3_footer:nth-child(1) {
+	.agile_footer_grids_ig_footer:nth-child(1) {
 		margin-bottom: 2em !important;
 	}
 	.wthree_footer_copy {
@@ -4135,7 +4135,7 @@ input.checkbox:checked:after {
 	.igs_ig_banner_nav_right_grid {
 		padding: 0 1em 2em;
 	}
-	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .w3_login {
+	.typo, .privacy, .faq, .services, .events, .mail, .agileinfo_single, .ig_login {
 		padding: 2em 1em;
 	}
 	.ig_fruit {
@@ -4190,7 +4190,7 @@ input.checkbox:checked:after {
 	.privacy2-grid1 h5 {
 		font-size: 1.1em;
 	}
-	.w3_testimonials_grid {
+	.ig_testimonials_grid {
 		float: none;
 		width: 100%;
 	}
@@ -4224,7 +4224,7 @@ input.checkbox:checked:after {
 	.form-module .toggle .tooltip {
 		display: none;
 	}
-	.w3_login {
+	.ig_login {
 		padding-bottom: 0;
 	}
 	.agileinfo_mail_grid_right input[type="submit"], .agileinfo_mail_grid_right input[type="reset"] {
@@ -4379,7 +4379,7 @@ input.checkbox:checked:after {
 	.form-module .form {
 		padding: 20px;
 	}
-	.w3_login_module {
+	.ig_login_module {
 		min-height: 433px;
 	}
 	.agileinfo_mail_grid_right input[type="submit"], .agileinfo_mail_grid_right input[type="reset"] {
@@ -4496,7 +4496,7 @@ input.checkbox:checked:after {
 	.view p {
 		padding: 10px 10px 0px;
 	}
-	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .w3_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
+	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .ig_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
 		font-size: 1.6em;
 	}
 	.igs_service_grids {
@@ -4520,7 +4520,7 @@ input.checkbox:checked:after {
 	.agileinfo_single_right {
 		padding: 0;
 	}
-	p.animi,.w3_testimonials_grids {
+	p.animi,.ig_testimonials_grids {
 		margin: 2em 0 0;
 	}
 	.events_bottom_left1_grid {
@@ -4583,7 +4583,7 @@ input.checkbox:checked:after {
 	.top_brand_left, .igs_ig_banner_left {
 		width: 100%;
 	}
-	.agile_top_brand_left_grid1 p,.agileinfo_mail_grid_right input[type="text"], .agileinfo_mail_grid_right input[type="email"], .agileinfo_mail_grid_right textarea,.w3agile_event_grid_right p,.agileits_team_grid p,p.animi,.w3_testimonials_grid p,.wthree_news_top_serv_btm_grid p,.privacy1-grid ul li span,.igs_service_grid_left p, .privacy2-grid1 p,.ig_fresh_vegetables_grid ul li a,.wthree_footer_copy p,.ig_banner_nav_right_banner_pet p {
+	.agile_top_brand_left_grid1 p,.agileinfo_mail_grid_right input[type="text"], .agileinfo_mail_grid_right input[type="email"], .agileinfo_mail_grid_right textarea,.w3agile_event_grid_right p,.agileits_team_grid p,p.animi,.ig_testimonials_grid p,.wthree_news_top_serv_btm_grid p,.privacy1-grid ul li span,.igs_service_grid_left p, .privacy2-grid1 p,.ig_fresh_vegetables_grid ul li a,.wthree_footer_copy p,.ig_banner_nav_right_banner_pet p {
 		font-size: 13px;
 	}
 	.privacy1-grid ul li span {
@@ -4690,7 +4690,7 @@ input.checkbox:checked:after {
 	.agile_about_grid_left ol {
 		padding-left: 15px;
 	}
-	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .w3_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
+	.top-brands h3, .fresh-vegetables h3, .mail h3, .testimonials h3, .ig_login h3, .igs_ig_banner_nav_right_grid h3, h3.title, .faq h3, .services h3, .about h3, .team h3, .events h3 {
 		font-size: 1.49em;
 	}
 	.agileits_team_grids {
@@ -4742,16 +4742,16 @@ input.checkbox:checked:after {
 	.services-bottom {
 		padding: 2em 0;
 	}
-	.wthree_news_top_serv_btm_grid,.w3_testimonials_grid {
+	.wthree_news_top_serv_btm_grid,.ig_testimonials_grid {
 		padding: 0;
 	}
 	.wthree_news_top_serv_btm_grid_icon i {
 		font-size: 1.5em;
 	}
-	.w3_testimonials_grid p i {
+	.ig_testimonials_grid p i {
 		padding: 0 2em 0.5em 0;
 	}
-	.w3_testimonials_grid h4 {
+	.ig_testimonials_grid h4 {
 		font-size: .9em;
 		margin: 1em 0 0;
 	}
@@ -4811,7 +4811,7 @@ input.checkbox:checked:after {
 		padding: 10px;
 		font-size: 13px;
 	}
-	.w3_login_module {
+	.ig_login_module {
 		min-height: 375px;
 	}
 	.form-module {
