@@ -14,11 +14,6 @@ if ( [].filter ) { document.getElementById("phplive_btn_1579256171").addEventLis
 
 </script>
 <!-- END PHP Live! HTML Code [V3] -->
-<?php if($this->session->flashdata('success')){ ?>
-					<div class="alert alert-danger" role="alert" id="success-alert">
-					<strong id="myWish"><?php echo $this->session->flashdata('success');?></strong> 
-					</div>
-<?php } ?>	
 <!--<section>-->
 <section class="slider">
 	<div class="flexslider">

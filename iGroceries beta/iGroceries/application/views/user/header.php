@@ -126,7 +126,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="igs_vegetables">
 							<ul class="dropdown-menu drp-mnu">
 								<li><a href="#">Login</a></li> 
-								<li><a href="<?php echo base_url();?>Shop/signup">Sign Up</a></li>
+								<li><a href="#">Sign Up</a></li>
 							</ul>
 						</div>                  
 					</div>	
